@@ -1,0 +1,20 @@
+// Edit your projects here. Each one gets its own page at /#/projects/<slug>
+export const projects=[
+{slug:'signbridge',title:'SignBridge',short:'An AI platform for sign language communication and learning, starting with Ghanaian Sign Language. My final year project.',
+ tags:['AI','Accessibility','UI/UX'],role:'Designer and database lead',status:'Final year project',stack:'React Native, Node.js, PostgreSQL, Figma',
+ overview:'SignBridge helps deaf and hearing people communicate and learn sign language, with Ghanaian Sign Language (GSL) supported first.',
+ problem:'Few learning and communication tools exist for GSL, so learners and families have little to practise with.',
+ did:['Designed the app screens and user flows in Figma','Designed the database for lessons, signs and learner progress','Built the working app with AI-assisted development'],
+ next:'Add your real screenshots, a demo link and results once the project is further along.'},
+{slug:'swedru-pos',title:'Swedru POS',short:'A point-of-sale and inventory system for small vendors in and around Agona Swedru, first piloted in a local drug store.',
+ tags:['PostgreSQL','React','Inventory'],role:'Designer, database administrator and developer',status:'In progress',stack:'React, Node.js, PostgreSQL, Figma',
+ overview:'A simple POS and stock system made for small shops that run on paper or memory today.',
+ problem:'Small vendors lose track of stock and daily sales, and most POS tools are too costly or complicated for them.',
+ did:['Designed a fast, low-training sales screen','Designed tables for products, stock levels and sales','Piloting the first version in a local drug store'],
+ next:'Add screenshots and what the pilot taught you.'},
+{slug:'richwave-vote',title:'RichWave Vote',short:'A voting platform for Ghanaian elections, built under Richnic with a focus on data integrity.',
+ tags:['Node.js','Database design'],role:'Designer and database lead',status:'Richnic project',stack:'React, Node.js, PostgreSQL',
+ overview:'An online voting platform for Ghanaian organisations and elections.',
+ problem:'Voting must be accurate, one person one vote, and easy to audit.',
+ did:['Designed the vote, voter and election tables with integrity rules','Designed the voter and admin interfaces','Built the platform with AI-assisted development'],
+ next:'Add screenshots and how organisations can try it.'}]
