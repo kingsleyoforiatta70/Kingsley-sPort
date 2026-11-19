@@ -74,7 +74,7 @@ function Home(){return(<>
   <header className="hero">
     <div><p className="hi">Hey! I’m Kingsley 👋</p><h1>I design <em>data</em> that works for people.</h1>
     <p className="lead">Database Administrator and UI/UX Developer. I structure reliable databases, then design the interfaces people use to reach them.</p>
-    <div className="cta"><Link className="btn pri" to="/" state={{to:'contact'}}>Start a project</Link><a className="btn" href="/resume.pdf">Download resume</a></div></div>
+    <div className="cta"><Link className="btn pri" to="/" state={{to:'contact'}}>Start a project</Link><a className="btn" href="./resume.pdf" download="Kingsley-Ofori-Atta-Resume.pdf">Download resume</a></div></div>
     <div className="av"><img className="av-dark" alt="3D portrait of Kingsley in a red and white shirt" src="./avatar-dark.jpg"/><img className="av-light" alt="" aria-hidden="true" src="./avatar-light.jpg"/></div>
     <div className="roles">
       <div className="role"><h3>Database Administrator</h3><p>PostgreSQL, MongoDB, schema design</p></div>
